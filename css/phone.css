@@ -1,0 +1,238 @@
+/* body{
+    background-color: rebeccapurple;
+} */
+/* NAVIGATION */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+/* HOME SECTION */
+
+/* SERVICE SECTION */
+#services{
+flex-direction:column;
+margin:-20px 0px 30px 0px;
+}
+
+.box{
+    margin: 0px 20px 40px 20px;
+    width: 450px;
+    height: 200px;
+}
+
+.box p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.h-primary {
+    font-size: 1.3rem;
+}
+#h-services{
+    margin: 4px 0px 20px 0px;
+}
+#home{
+    height: 260px;
+    padding: 0px 32px;
+}
+#home p{
+    font-size:17px;
+}
+#btn {
+    font-size: 15px;
+}
+@media(max-width:550px){
+
+    #logo{
+        width: 61px;
+        height: 57px;
+        }
+        
+        h3{
+            font-size: 16px;
+        }
+    
+    .h-primary {
+        font-size: 23px;
+    }
+    #h-services {
+        margin: 0px 20px 20px 20px;
+    }
+    #home p {
+        font-size: 15px;
+    }
+    #navbar ul li a{
+        font-size: 18px;
+    }
+    .box{
+        width:310px;
+        height: 210px;
+    }
+    #home {
+        padding: 3px 30px;
+    }    
+
+    #home::before {
+        height: 360px;
+    }
+
+    #btn {
+        font-size: 13px;
+        width: 7rem;
+    }
+
+    /* contact box */
+
+    #contact-box label{
+        font-size: 18px;
+    }
+    #contact-box textarea, #contact-box input {
+    font-size: 16px;
+    padding: 8px;
+    width: 92%;
+    }
+
+    #contact-box form{
+        width: 80%;
+    }
+    /* copyright */
+
+    #copy{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:440px){
+
+    #navbar ul li a{
+        font-size:17px;
+        padding: 6px 16px
+    }
+
+    #logo{
+    width: 59px;
+    height: 54px;
+    }
+    
+    h3{
+        font-size: 15px;
+    }
+    .h-primary{
+        font-size: 20px;
+    }
+    .h-secondary{
+        font-size: 18px;
+    }
+    #h-services{
+        font-size: 23px;
+        margin: -1px 20px 2px 20px;
+    }
+    
+    #home h1{
+        font-size: 22px;
+    }
+    .box{
+        width: 290px;
+        height: 160px;
+        margin: 15px 0px;
+    }
+    .box p{
+        font-size: 16px;
+    }
+    
+    #home p{
+        font-size: 14px;
+    }
+
+    #home::before {
+        height: 345px;
+    }
+    #home {
+        height: 240px;
+        padding: 2px 30px;
+    }    
+
+    #btn {
+        font-size: 12px;
+        width: 6rem;
+    }
+}
+
+
+@media(max-width:390px){
+
+    #logo{
+        width: 56px;
+        height: 52px;
+    }
+        
+    h3{
+        font-size: 14px;
+    }
+    
+    #navbar ul li a{
+        font-size:16px;
+        padding: 5px 10px
+    }
+
+    #home{
+        padding: 0px 13px;
+    }
+
+    #home::before {
+        height: 330px;
+    }
+
+    #home h1{
+        font-size: 18px;
+    }
+
+    #home p{
+        font-size: 13px;
+
+    }
+
+    #h-services {
+        font-size: 21px;
+    }
+    #h-services {
+        text-align: center;
+        margin: -18px 0px 0px 0px;
+    }
+
+    .box{
+        width: 235px;
+        height: 165px;
+        margin: 15px 0px;
+    }
+    .box p{
+        font-size: 14px;
+    }
+    .h-secondary {
+        font-size: 20px;
+    }
+
+    #contact h1 {
+        padding: 15px;
+    }
+
+    .h-primary {
+        font-size: 22px;
+    }
+    #contact-box label {
+        font-size: 15px;
+    }
+
+    #contact-box textarea, #contact-box input {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    #btn2{
+        font-size: 11px;
+        padding: 7px;
+    }
+}
